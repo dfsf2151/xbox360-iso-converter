@@ -45,7 +45,7 @@ def ask_file(title, directory=False, initial=None):
 class App(tk.Tk):
     def __init__(self, iso=None):
         super().__init__()
-        self.title("Xbox 360 ISO Converter")
+        self.title("Xbox 360 ISO Converter for Linux")
         self.resizable(False, False)
         self.proc = None
         self.dest_custom = False

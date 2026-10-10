@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Xbox 360 ISO Converter
+Name=Xbox 360 ISO Converter for Linux
 Comment=Convert Xbox 360 ISO to GOD or extracted XEX
 Exec=AppRun %f
 Icon=xbox360-iso-converter
