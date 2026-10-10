@@ -59,7 +59,7 @@ You can also pass the ISO straight away:
 ## Build it yourself
 
 ```bash
-git clone https://github.com/mohamad-almasri-2008/xbox360-iso-converter.git
+git clone https://github.com/dfsf2151/xbox360-iso-converter.git
 cd xbox360-iso-converter
 ./build-appimage.sh
 ```
