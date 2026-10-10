@@ -1,0 +1,7 @@
+#!/bin/bash
+APPDIR="${APPDIR:-$(dirname "$(readlink -f "$0")")}"
+export TCL_LIBRARY="$APPDIR/usr/share/tcltk/tcl8.6"
+export TK_LIBRARY="$APPDIR/usr/share/tcltk/tk8.6"
+export TKPATH="$TK_LIBRARY"
+export X360_BIN="$APPDIR/usr/bin"
+exec "$APPDIR/opt/python3.12/bin/python3.12" "$APPDIR/usr/share/x360/xbox360-iso-gui.py" "$@"

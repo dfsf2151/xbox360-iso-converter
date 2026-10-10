@@ -1,0 +1,4 @@
+dl/
+AppDir/
+squashfs-root/
+*.AppImage

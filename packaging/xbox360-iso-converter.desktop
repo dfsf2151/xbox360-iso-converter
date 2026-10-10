@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Xbox 360 ISO Converter
+Comment=Convert Xbox 360 ISO to GOD or extracted XEX
+Exec=AppRun %f
+Icon=xbox360-iso-converter
+Terminal=false
+Categories=Utility;
+MimeType=application/x-cd-image;application/x-iso9660-image;
